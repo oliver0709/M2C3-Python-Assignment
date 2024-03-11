@@ -1,0 +1,47 @@
+# Ejercicio 1
+string_var = "Hola compañeros de Devcamp"
+number_var = 27
+list_var = ["manzana", "banana", "kiwi"]
+boolean_var = True
+
+# Ejercicio 2
+substring_var = string_var[:3]
+print(substring_var)
+
+# Ejercicio 3
+primer_elemento = list_var[0]
+print(primer_elemento)
+
+# Ejercicio 4
+nuevo_numero = number_var + 10
+print(nuevo_numero)
+
+# Ejercicio 5
+ultimo_elemento = list_var[-1]
+print(ultimo_elemento)
+
+# Ejercicio 6
+names = 'harry,alex,susie,jared,gail,conner'
+names = names.split(',')
+print(names)
+
+# Ejercicio 7
+substring_var = string_var[:4]
+substring2 = substring_var.upper() + string_var[4:]
+print(substring2)
+
+# Ejercicio 8
+sentence = f"{string_var}, soy Oliver y tengo {number_var} años"
+print(sentence)
+
+# Ejercicio 9
+print("hello world")
+
+# Ejercicio final
+
+mi_cadena = "Hola estimados miembros de Devcampp"
+indice_hola = mi_cadena.find("Hola")
+print(f"La primera aparición de 'Hola' comienza en el índice {indice_hola}.")
+
+cadena_modificada = mi_cadena.replace("Hola", "adiós")
+print(cadena_modificada)
